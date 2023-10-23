@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Awesome";
+    src: url(../fonts/Awesome\ Free\ Font.ttf);
+}
+
+@font-face {
+    font-family: "Learning";
+    src: url(../fonts/LearningCurve.ttf);
+}
+
+@font-face {
+    font-family: "Maincra";
+    src: url(../fonts/Minecraft.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: #000;
+}
+
+body{
+    width: 750px; height: 1000px;
+    margin: auto; background: #ffc0cb;
+}
+
+section#banner{
+    width: 250px; height: 250px;
+    float: left;
+    font-family: Maincra;
+    background: #fd9b40;
+}
+
+section#logo{
+    width: 250px; height: 250px;
+    float: left;
+    font-family: Learning;
+    background: #8eff78;
+}
+
+section#login{
+    width: 250px; height: 250px;
+    float: right;
+    font-family: Awesome;
+    background: #5a72f7;
+}
+
+.caja{
+    position: relative;
+    display:inline-block;
+}
+
+#uno{position: absolute; top: 20px; left: 5%; }
+
+#dos{position: absolute; top: 20px; left: 5%; }
+
+#tres{position: absolute; top: 20px; left: 5%;}
+
+nav{
+    width: 750px; height: 250px;
+    color: #000000;
+    background: #000;
+    font-family: Learning;
+    font-size: 20px;
+    float: left;
+}
+
+section#inicio {                 
+    width: 250px; height: 250px; 
+    float: left;
+    background: #8eff78;				 
+} 
+
+ 
+
+section#producto {                 
+    width: 250px; height: 250px; 
+    float: left;
+    background:#5a72f7; 
+} 
+
+ 
+
+section#contacto { 
+    width: 250px; height: 250px; 
+    float: right; 
+    background: #fd9b40;
+}     
+
+main{
+    width: 750px; height: 250px;
+    background-color: #1c4003; 
+    float: left;
+    font-size: 20px;
+    font-family: Awesome;
+} 
+
+aside#hoy {                 
+    width: 250px; height: 250px; 
+    float: left;
+    background:#5a72f7; 
+} 
+
+ 
+
+article#novedades {                 
+    width: 250px; height: 250px; 
+    float: left;
+    background: #fd9b40;
+} 
+
+ 
+
+aside#internacional { 
+    width: 250px; height: 250px; 
+    float: right; 
+    background: #8eff78;	
+}
+
+
+
+
+footer { 
+    width: 750px; height: 250px; 
+    background-color: #0a40f7; 
+    font-size: 20px;
+    font-family: Maincra;
+} 
+
+aside#creditos {                 
+    width: 250px; height: 250px; 
+    float: left; 
+    background: #fd9b40;
+}
+
+article#lugar {                 
+    width: 250px; height: 250px; 
+    float: left; 
+    background: #8eff78;	
+} 
+
+aside#correo { 
+    width: 250px; height: 250px; 
+    float: right;
+    background:#5a72f7; 
+} 
